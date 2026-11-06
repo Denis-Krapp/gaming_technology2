@@ -1,0 +1,4 @@
+repository "GamingTech_Practice1/GamingTech_Practice1@10170693200006@cloud"
+  path "/"
+    br "/main"
+    co "/main"
