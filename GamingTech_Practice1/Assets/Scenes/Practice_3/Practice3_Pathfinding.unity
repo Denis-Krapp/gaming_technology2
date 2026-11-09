@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 781785316}
   - component: {fileID: 781785315}
+  - component: {fileID: 781785317}
   m_Layer: 0
   m_Name: PathFindingManager
   m_TagString: Untagged
@@ -143,7 +144,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781785314}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e45ba4f8cdc18b478bd1d9e4db76b30, type: 3}
   m_Name: 
@@ -155,6 +156,7 @@ MonoBehaviour:
   startCoords: {x: 1, y: 1}
   targetCoords: {x: 13, y: 8}
   allowDiagonals: 0
+  heuristicType: 0
 --- !u!4 &781785316
 Transform:
   m_ObjectHideFlags: 0
@@ -170,6 +172,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &781785317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781785314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8c00f45d43ad4d44bda7613715480a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelTestRunner
+  testSeed: 5
+  width: 64
+  height: 36
+  fillPercent: 45
+  iterations: 8
 --- !u!1 &1342349166
 GameObject:
   m_ObjectHideFlags: 0
