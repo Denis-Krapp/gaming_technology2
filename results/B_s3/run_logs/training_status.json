@@ -1,0 +1,29 @@
+{
+    "RollerAgent": {
+        "checkpoints": [
+            {
+                "steps": 150006,
+                "file_path": "results\\B_s3\\RollerAgent\\RollerAgent-150006.onnx",
+                "reward": -0.022589807541374744,
+                "creation_time": 1794679004.2879725,
+                "auxillary_file_paths": [
+                    "results\\B_s3\\RollerAgent\\RollerAgent-150006.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 150006,
+            "file_path": "results\\B_s3\\RollerAgent.onnx",
+            "reward": -0.022589807541374744,
+            "creation_time": 1794679004.2879725,
+            "auxillary_file_paths": [
+                "results\\B_s3\\RollerAgent\\RollerAgent-150006.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.2+cpu"
+    }
+}
